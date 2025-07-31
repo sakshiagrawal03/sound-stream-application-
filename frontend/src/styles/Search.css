@@ -1,0 +1,151 @@
+
+.search-container {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-family: 'ui-sans-serif', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+.search-bar {
+  width: 100vw;
+  max-width: 360px; 
+  margin-top: 18px;
+  background: #f2f2f2;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  height: 44px;
+  box-sizing: border-box;
+   overflow: hidden;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.04);
+}
+
+.search-back-arrow {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 1000; /* Make sure it stays above other elements */
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.search-bar input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 1.1rem;
+  color: #7d6a5e;
+  width: 100%;
+  margin-left: 8px;
+}
+.search-results-list{
+  width: 100vw;
+   max-width: 320px;
+}
+.search-results-player {
+  position: fixed;
+  bottom: 70px;
+  width: 94vw;
+  max-width: 340px;
+  background: #f6f5f4;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  padding: 10px 14px 10px 10px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.04);
+  gap:12px;
+}
+
+.search-results-player-img {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-right: 0;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.04);
+}
+
+.search-results-player-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 12px;
+  align-items: flex-start;
+}
+
+.search-results-player-title {
+  font-weight: 700;
+  font-size: 1.13rem;
+  color: #181716;
+  margin-bottom: 2px;
+}
+
+.search-results-player-artist {
+  font-size: 1.01rem;
+  color: #7d6a5e;
+  margin-top: 0;
+}
+
+.search-results-player-play {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #181716;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 10px;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.04);
+}
+
+.search-results-player-play svg {
+  width: 22px;
+  height: 22px;
+  fill: #fff;
+  margin-left: 2px;
+}
+
+.search-bottom-nav {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 100vw;
+  max-width: 320px;
+  height: 54px;
+  background: #fff;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 10;
+}
+
+.search-bottom-nav-icon {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #181716;
+  opacity: 0.85;
+}
+
+.search-bottom-nav-icon.active {
+  color: #181716;
+  opacity: 1;
+}

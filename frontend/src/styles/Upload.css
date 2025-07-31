@@ -1,0 +1,124 @@
+.upload-container {
+  min-height: 100vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  font-family: 'Poppins', 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.upload-header-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 24px;
+  margin-bottom: 32px;
+  gap: 0;
+  font-family: 'Poppins', 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.upload-back-arrow {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 16px;
+}
+
+.upload-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #181818;
+  margin: 0 auto;
+  font-family: 'Poppins', 'Inter', 'Segoe UI', Arial, sans-serif;
+  text-align: center;
+}
+
+.upload-form {
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Poppins', 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.upload-input {
+  width: 100%;
+  padding: 18px 16px;
+  margin-bottom: 18px;
+  border: 1px solid #e8e1dd;
+  border-radius: 12px;
+  font-size: 17px;
+  color: #7c5c4a;
+  background: #fff;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.upload-btn-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 48px;
+  width: 100%;
+  font-family: 'Poppins', 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.upload-btn-light {
+  background: #f6f3f1;
+  color: #181818;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: none;
+  transition: background 0.2s;
+  font-family: 'Poppins', 'Inter', 'Segoe UI', Arial, sans-serif;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.02);
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+.upload-btn-light:hover {
+  background: #ece7e3;
+}
+
+.upload-bottom-btn-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  font-family: 'Poppins', 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.upload-btn-dark {
+  width: 100%;
+  max-width: 400px;
+  background: #181818;
+  color: #fff;
+  border: none;
+  border-radius: 28px;
+  padding: 18px 0;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: none;
+  transition: background 0.2s;
+  font-family: 'Poppins', 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+.upload-btn-dark:hover {
+  background: #333;
+}
