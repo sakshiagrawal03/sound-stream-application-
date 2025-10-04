@@ -13,7 +13,8 @@ const Register = () => {
   function handleRegister(event) {
     event.preventDefault();
 
-    axios.post("http://localhost:3000/auth/register", {
+    // axios.post("http://localhost:3000/auth/register", {
+    axios.post("https://sound-stream-application-2.onrender.com/auth/register", {
       username,
       password
     }, {
