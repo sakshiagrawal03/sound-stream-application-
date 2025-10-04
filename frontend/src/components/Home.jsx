@@ -64,8 +64,8 @@ const Home = () => {
 
   useEffect(()=>{
 
-  //  axios.get("https://sound-stream-application-2.onrender.com/songs/get", {
-    axios.get("http://localhost:3000/songs/get", {
+    axios.get("https://sound-stream-application-2.onrender.com/songs/get", {
+    //axios.get("http://localhost:3000/songs/get", {
       withCredentials: true
     })
     .then(response => {
