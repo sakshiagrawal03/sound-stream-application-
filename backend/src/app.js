@@ -7,7 +7,8 @@ import cors from 'cors';
 const app= express();
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  // origin: 'http://localhost:5173',
+  origin: 'https://sound-stream-application-2c7v.vercel.app/',
   credentials: true
 }))
 

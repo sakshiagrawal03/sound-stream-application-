@@ -20,8 +20,8 @@ const Search = () => {
   const handleSearchChange = (e) => {
     const text = e.target.value;
     setSearchText(text);
-    // axios.get(`http://localhost:3000/songs/search-songs?text=${text}`,
-    axios.get(`https://sound-stream-application-2.onrender.com/songs/search-songs?text=${text}`,
+    axios.get(`http://localhost:3000/songs/search-songs?text=${text}`,
+  //  axios.get(`https://sound-stream-application-2.onrender.com/songs/search-songs?text=${text}`,
       { withCredentials: true }
     ).then((response => {
       dispatch(setFilteredSongs(response.data.songs));
