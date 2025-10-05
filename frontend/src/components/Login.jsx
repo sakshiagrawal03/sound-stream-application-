@@ -16,7 +16,8 @@ const Login = () => {
       event.preventDefault();
 
     //axios.post("http://localhost:3000/auth/login",
-         axios.post("https://sound-stream-application-2.onrender.com/auth/login",
+      //   axios.post("https://sound-stream-application-2.onrender.com/auth/login",
+      axios.post("http://localhost:3000/api/auth/login",
         {
            username,password
         },
