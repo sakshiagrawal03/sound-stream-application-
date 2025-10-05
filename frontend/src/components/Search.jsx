@@ -21,7 +21,7 @@ const Search = () => {
     const text = e.target.value;
     setSearchText(text);
 
-    axios.get(`   axios.post("https://sound-stream-application-2c7v.vercel.app/api/auth/login",api/songs/search-songs?text=${text}`,
+    axios.get(`   axios.post("https://sound-stream-application-2c7v.vercel.app/auth/login",api/songs/search-songs?text=${text}`,
     //axios.get(`http://localhost:3000/songs/search-songs?text=${text}`,
   //axios.get(`https://sound-stream-application-2.onrender.com/songs/search-songs?text=${text}`,
       { withCredentials: true }

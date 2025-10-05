@@ -14,7 +14,7 @@ const Register = () => {
     event.preventDefault();
 
 
-    axios.post("https://sound-stream-application-2c7v.vercel.app/api/auth/register", {
+    axios.post("https://sound-stream-application-2c7v.vercel.app/auth/register", {
    // axios.post("http://localhost:3000/auth/register", {
   // axios.post("https://sound-stream-application-2.onrender.com/auth/register", {
       username,
