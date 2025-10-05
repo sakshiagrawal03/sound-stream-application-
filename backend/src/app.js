@@ -20,12 +20,15 @@ app.use(cookieParser())
 
 /* POST /auth/register */
 /* POST /auth/login */
-app.use('/auth',authRoutes)
+// app.use('/auth',authRoutes)
+app.use('/api/auth',authRoutes)
+
 
 /* POST /songs/upload */
 /* GET /songs/get-songs */
 /* GET /songs/get-song/:mama */
 /* GET /songs/search-songs */
-app.use("/songs",songsRoutes)
+// app.use("/songs",songsRoutes)
+app.use("/api/songs",songsRoutes)
 
 export default app;
