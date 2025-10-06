@@ -22,7 +22,7 @@ const PORT = process.env.PORT || 3000;
 
 // ✅ Allowed origins
 const allowedOrigins = [
-  "https://steam-henna.vercel.app",
+  "",
   "http://localhost:5173",
 ];
 
