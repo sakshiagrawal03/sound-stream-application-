@@ -28,13 +28,12 @@ export async function registerUser(req,res){
              process.env.JWT_SECRET_KEY,
             {expiresIn: "1d"})    //1day
 
-            res.cookie("token", token, {
-                httpOnly: true,
-                secure: true,       // must be true on HTTPS
-                sameSite: "none",   // allows cross-site cookies
-                maxAge: 24 * 60 * 60 * 1000, // 1 day
-                });
-
+                 res.cookie("token", token, {
+            httpOnly: true,
+            secure: process.env.NODE_ENV === "production", // only secure in production
+            sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
+            maxAge: 24 * 60 * 60 * 1000,
+        });
             //set cookie in response
 
         //Response send krne se phle token generate krege 
