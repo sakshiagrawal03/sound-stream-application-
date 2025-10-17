@@ -22,7 +22,7 @@ const PORT = process.env.PORT || 3000;
 // ✅ Allowed origins
 const allowedOrigins = [
   "https://sound-stream-application-2c7v.vercel.app",
-  
+  "http://localhost:5173",
 ];
 
 // ✅ Proper CORS configuration
