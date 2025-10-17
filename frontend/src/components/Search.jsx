@@ -127,7 +127,6 @@
 
 // export default Search;
 
-
 import React, { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';

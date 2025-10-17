@@ -90,7 +90,6 @@
 // };
 
 // export default Upload;
-
 import React, { useState } from 'react';
 import '../styles/Upload.css';
 import { useDispatch } from 'react-redux';
