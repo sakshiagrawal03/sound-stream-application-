@@ -7,7 +7,6 @@
 // app.listen(3000,()=>{
 //     console.log("server is running on http://localhost:3000");
     
-// })
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
@@ -22,7 +21,7 @@ const PORT = process.env.PORT || 3000;
 
 // ✅ Allowed origins
 const allowedOrigins = [
-  "https://sound-stream-application-uok3.vercel.app",
+  "https://steam-henna.vercel.app",
   "http://localhost:5173",
 ];
 

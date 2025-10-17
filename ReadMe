@@ -1,0 +1,6 @@
+go on frontend by cd frontend 
+                  npm run dev
+
+
+go on backend by   cd backend 
+                   npx nodemon index.js                  
