@@ -21,7 +21,7 @@ const PORT = process.env.PORT || 3000;
 
 // ✅ Allowed origins
 const allowedOrigins = [
-  "https://steam-henna.vercel.app",
+  "https://sound-stream-application-uok3.vercel.app",
   "http://localhost:5173",
 ];
 
