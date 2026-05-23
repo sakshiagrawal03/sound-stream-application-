@@ -1,0 +1,128 @@
+/* .app-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  box-shadow: 0 16px 60px rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.app-header-brand {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #181716;
+}
+
+.app-header-subtitle {
+  margin-top: 4px;
+  font-size: 0.9rem;
+  color: #6f6f6f;
+}
+
+.app-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.app-header-button {
+  border: none;
+  border-radius: 999px;
+  padding: 10px 18px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  background: rgba(24, 23, 22, 0.08);
+  color: #181716;
+  cursor: pointer;
+  transition: transform 0.18s ease, background 0.18s ease, color 0.18s ease;
+}
+
+.app-header-button:hover {
+  background: rgba(24, 23, 22, 0.14);
+}
+
+.logout-button {
+  background: #181716;
+  color: #fff;
+}
+
+.logout-button:hover {
+  transform: translateY(-1px);
+} */
+.app-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--glass-border);
+  position: sticky;
+  top: 0;
+  z-index: 110;
+  box-shadow: var(--shadow-sm);
+}
+
+.app-header-brand {
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  background: linear-gradient(135deg, #fff 0%, var(--text-secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.app-header-subtitle {
+  margin-top: 2px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--accent-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.app-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.app-header-button {
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.app-header-button:hover {
+  background: var(--bg-surface-elevated);
+  border-color: var(--text-secondary);
+  transform: translateY(-2px);
+}
+
+.logout-button {
+  background: var(--accent-primary);
+  border: none;
+  color: #fff;
+  box-shadow: 0 4px 14px var(--accent-glow);
+}
+
+.logout-button:hover {
+  background: #ff4f7e;
+  box-shadow: 0 6px 20px rgba(255, 51, 102, 0.3);
+  transform: translateY(-2px);
+}
